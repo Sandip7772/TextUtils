@@ -29,7 +29,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Textform heading= "Enter the Text here:" mode = {mode}/>}></Route>
       <Route path='/home' element={<Textform heading= "Enter the Text here:" mode = {mode}/>}></Route>
-      <Route path='/about' element={<About />}></Route>
+      <Route path='/about' element={<About mode = {mode} />}></Route>
 
     </Routes>
     </BrowserRouter>
